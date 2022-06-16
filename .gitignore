@@ -1,0 +1,6 @@
+googletest/
+.cmake/
+build
+googletest
+.devcontainer/
+.vscode/
