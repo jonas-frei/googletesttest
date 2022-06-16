@@ -34,5 +34,5 @@ jobs:
       - name: Run test
         run: |
           mkdir build
-          cd build && cmake .. && make && ./mytest
+          cd build && cmake .. && make && ./mytests
           
