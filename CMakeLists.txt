@@ -8,4 +8,4 @@ include_directories(googletest/include)
 
 add_executable(mytests mytests.cpp myfunctions.c)
 
-target_link_libraries(mytests PRIVATE gtest)
+target_link_libraries(mytests PRIVATE gtest gtest_main)
